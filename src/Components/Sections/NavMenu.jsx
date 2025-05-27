@@ -6,7 +6,7 @@ import ProfilePicture from "../../img/ProfilePicture.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
-export default function NavMenu({onHideSidebar, onChangePage}) {
+export default function NavMenu({onHideSidebar}) {
     const screenShadow = useRef(null);
     const sideCard = useRef(null);
     useEffect(() => {
@@ -37,7 +37,7 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
 
     return (
         <>
-            <nav ref={sideCard} className="fixed top-0 bottom-0 transform-[translateX(-100%)]
+            <nav ref={sideCard} className="overflow-y-scroll sm:overflow-y-hidden fixed top-0 bottom-0 transform-[translateX(-100%)]
              z-10 bg-black w-[320px] rounded-r-4xl border-r-zinc-800 border-r-8 duration-500 transition-all">
                 <section className="flex flex-col items-center p-5">
                     <section className="flex flex-col items-center">
@@ -52,7 +52,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                 <section className="flex flex-col items-start ml-5 px-5 gap-3">
                     <Link to="/" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("Home")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-blue-600 mr-5"></div>
@@ -61,7 +60,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                     </Link>
                     <Link to="/aboutMe" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("About Me")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-purple-600 mr-5"></div>
@@ -70,7 +68,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                     </Link>
                     <Link to="/projects" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("Projects")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-yellow-500 mr-5"></div>
@@ -79,7 +76,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                     </Link>
                     <Link to="/achivements" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("Achivements")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-red-600 mr-5"></div>
@@ -88,7 +84,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                     </Link>
                     <Link to="/timeline" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("Timeline")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
@@ -97,7 +92,6 @@ export default function NavMenu({onHideSidebar, onChangePage}) {
                     </Link>
                     <Link to="/socialMedia" onClick={() => {
                         hideSideBar()
-                        onChangePage && onChangePage("Social Media")
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-orange-600 mr-5"></div>

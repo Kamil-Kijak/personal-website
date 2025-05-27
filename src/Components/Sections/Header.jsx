@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function Header({onToggleNavbarClicked, title}) {
 
     return (
-        <nav className="bg-black flex py-2 items-center justify-between fixed top-0 left-0 right-0 border-b-4 border-b-zinc-700">
+        <nav className="bg-black flex py-2 items-center justify-between fixed top-0 left-0 right-0 border-b-4 border-b-white">
             <section className="mx-5 hover:rotate-90 duration-200 transition-transform ease-in-out">
                 <FontAwesomeIcon icon={faBars} className="text-white scale-150 cursor-pointer" onClick={onToggleNavbarClicked} />
             </section>
