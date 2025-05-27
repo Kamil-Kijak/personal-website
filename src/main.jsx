@@ -8,8 +8,8 @@ import Navigation from "./Components/Pages/Navigation"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navigation></Navigation>
     <BrowserRouter>
+      <Navigation></Navigation>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
       </Routes>
