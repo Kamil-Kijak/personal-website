@@ -12,29 +12,41 @@ export default function Home() {
                 <span className="text-5xl font-extrabold text-zinc-600 mt-10">To My site</span>
             </section>
             <section className="flex flex-col justify-center items-center">
-                <section className="flex flex-col items-center">
+                <section className="flex flex-col items-center mt-20">
                     <FontAwesomeIcon icon={faCircleInfo} className="text-blue-700 text-6xl"/>
                     <span className="text-white text-6xl font-bold">My Info</span>
                     <div className="w-full border-t-4 border-t-white mt-4"></div>
                 </section>
-                <section className="sm:mx-50 md:mx-25 mx-5 mt-5">
-                    <span className="text-white text-wrap font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste magnam error placeat sequi corporis est rem minus laudantium animi nemo, expedita nihil vel, neque suscipit itaque. Ipsam voluptatibus excepturi vitae!</span>
+                <section className="sm:mx-50 mx-25 mt-5">
+                    <span className="text-white text-wrap font-bold text-xl">
+                        Hello I am Kamil Kijak. I am interested in <span className="text-blue-600">IT brand and software development</span>
+                        I want to become successful person with my programming skills and i want to make a carrier as developer.
+                    </span>
                 </section>
-                <section className="flex flex-col items-center mt-30">
+                <section className="flex flex-col items-center mt-50">
                     <FontAwesomeIcon icon={faBriefcase} className="text-red-700 text-6xl"/>
                     <span className="text-white text-6xl font-bold">Preferences</span>
                     <div className="w-full border-t-4 border-t-white mt-4"></div>
                 </section>
-                <section className="sm:mx-50 md:mx-25 mx-5 mt-5">
-                    <span className="text-white text-wrap font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste magnam error placeat sequi corporis est rem minus laudantium animi nemo, expedita nihil vel, neque suscipit itaque. Ipsam voluptatibus excepturi vitae!</span>
+                <section className="sm:mx-50 mx-25 mt-5">
+                    <span className="text-white text-wrap font-bold text-xl">
+                        Programming is my passion so I want to make carrier with it. I have built many projects for example: games, sites, apps already.
+                        I like logicly work with <span className="text-red-600">programming projects</span>, create a new ideas for projects
+                         and implement there, upgrade exists projects for new concepts and creating plans about new project.
+                    </span>
                 </section>
-                <section className="flex flex-col items-center mt-30">
+                <section className="flex flex-col items-center mt-50">
                     <FontAwesomeIcon icon={faTrophy} className="text-yellow-500 text-6xl"/>
                     <span className="text-white text-6xl font-bold">Goal</span>
                     <div className="w-full border-t-4 border-t-white mt-4"></div>
                 </section>
-                <section className="sm:mx-50 md:mx-25 mx-5 my-5 ">
-                    <span className="text-white text-wrap font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste magnam error placeat sequi corporis est rem minus laudantium animi nemo, expedita nihil vel, neque suscipit itaque. Ipsam voluptatibus excepturi vitae!</span>
+                <section className="sm:mx-50 mx-25 my-5 ">
+                    <span className="text-white text-wrap font-bold text-xl">
+                        My goal is extend my skills and improve my work for better work.
+                        By builting projects I learn new skills, new technologies and improve work with another projects.
+                        I am really great fan of IT things so I want to <span className="text-yellow-400">learn and upgrade myself</span> to make a technology related carrier.
+                        I hope that my efforts will succeed.
+                        </span>
                 </section>
             </section>
         </main>
