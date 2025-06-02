@@ -7,6 +7,7 @@ export default function Projects() {
         <main className="bg-zinc-900 min-h-screen pb-[300px]">
             <section className="mx-10 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-20 gap-x-10 gap-y-20">
                 <ProjectLink
+                    link="/project/spaceshoot"
                     imagesUrls={[
                         "./src/img/projects/spaceshoot/1.png",
                         "./src/img/projects/spaceshoot/2.png",
@@ -24,6 +25,7 @@ export default function Projects() {
                     }
                 ></ProjectLink>
                 <ProjectLink
+                    link="/project/solitaire"
                     imagesUrls={[
                         "./src/img/projects/solitaire/1.png",
                         "./src/img/projects/solitaire/2.png",

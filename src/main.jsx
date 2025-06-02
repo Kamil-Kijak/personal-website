@@ -7,6 +7,7 @@ import Home from "./Components/Pages/Home"
 import Navigation from "./Components/Pages/Navigation"
 import AboutMe from './Components/Pages/AboutMe'
 import Projects from './Components/Pages/Projects'
+import Project from './Components/Pages/Project'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/aboutMe' element={<AboutMe></AboutMe>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/project/:ID' element={<Project></Project>}></Route>
         <Route path='*' element={<Navigate to={"/"}></Navigate>}></Route>
       </Routes>
     </BrowserRouter>

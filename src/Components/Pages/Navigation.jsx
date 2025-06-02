@@ -12,14 +12,15 @@ export default function Navigation() {
     const location = useLocation();
     useEffect(() => {
         const titles = {
-            "/":"Home",
-            "/aboutMe": "About Me",
-            "/projects":"Projects",
-            "/achivements": "Achivements",
-            "/timeline":"Time line",
-            "/socialMedia":"Social Media"
+            "":"Home",
+            "aboutMe": "About Me",
+            "projects":"Projects",
+            "achivements": "Achivements",
+            "timeline":"Time line",
+            "socialMedia":"Social Media",
+            "project":"Project"
         }
-        SetTitle(titles[location.pathname] || "Home")
+        SetTitle(titles[location.pathname.split("/")[1]] || "Home")
     })
     return (
         <section className="w-screen">
