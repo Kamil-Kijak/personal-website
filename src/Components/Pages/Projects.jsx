@@ -16,7 +16,7 @@ export default function Projects() {
                     ]}
                     title="Spaceshoot game"
                     subtitle={
-                        <div>
+                        <div className="md:text-base text-xs">
                             <div className="border-t-4 border-cyan-300 m-5"></div>
                             <p className="text-white font-bold mx-5">Game created in <span className="text-cyan-400 font-extrabold">C#</span> programming language
                             using XNA framework for creating games. Game is about <span className="text-blue-700 font-extrabold">survive waves of enemies as spaceship.</span>
@@ -35,7 +35,7 @@ export default function Projects() {
                     ]}
                     title="Solitaire game"
                     subtitle={
-                        <div>
+                        <div className="md:text-base text-xs">
                             <div className="border-t-4 border-red-700 m-5"></div>
                             <p className="text-white font-bold mx-5">Game created in <span className="text-cyan-400 font-extrabold">C#</span> programming language
                              in vanilla console. Game is a <span className="text-blue-700 font-extrabold">classic solitaire game</span> about stack all of cards in four stacks.
