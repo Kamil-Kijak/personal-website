@@ -74,20 +74,20 @@ export default function NavMenu({onHideSidebar}) {
                             <span className="text-white text-3xl font-bold">Projects</span>
                         </section>
                     </Link>
+                    <Link to="/skills" onClick={() => {
+                        hideSideBar()
+                    }}>
+                        <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
+                            <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
+                            <span className="text-white text-3xl font-bold">Skills</span>
+                        </section>
+                    </Link>
                     <Link to="/achivements" onClick={() => {
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
                             <div className="w-5 h-5 rounded-full bg-red-600 mr-5"></div>
                             <span className="text-white text-3xl font-bold">Achivements</span>
-                        </section>
-                    </Link>
-                    <Link to="/timeline" onClick={() => {
-                        hideSideBar()
-                    }}>
-                        <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
-                            <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
-                            <span className="text-white text-3xl font-bold">TimeLine</span>
                         </section>
                     </Link>
                     <Link to="/socialMedia" onClick={() => {

@@ -23,7 +23,7 @@ export default function Projects() {
                             </p>
                         </div>
                     }
-                ></ProjectLink>
+                />
                 <ProjectLink
                     link="/project/solitaire"
                     imagesUrls={[
@@ -42,7 +42,7 @@ export default function Projects() {
                             </p>
                         </div>
                     }
-                ></ProjectLink>
+                />
             </section>
         </main>
     )

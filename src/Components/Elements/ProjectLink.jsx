@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { useNavigate} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faE, faEye } from "@fortawesome/free-solid-svg-icons";
+import {faEye } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectLink({imagesUrls = [], title = "project", subtitle = <p>desc</p>, link = "/"}) {
 
@@ -22,16 +22,14 @@ export default function ProjectLink({imagesUrls = [], title = "project", subtitl
         return () => {clearInterval(interval)}
     }, [])
     return (
-        <section className="w-[1fr] h-[300px] relative" onMouseEnter={() => {
+        <section className="w-[1fr] h-[300px] relative hover:z-5 z-2" onMouseEnter={() => {
             desc.current.classList.add("top-[90%]");
-            desc.current.classList.add("z-4");
             desc.current.classList.remove("top-0");
         }} onMouseLeave={() => {
             desc.current.classList.remove("top-[90%]");
-            desc.current.classList.remove("z-4");
             desc.current.classList.add("top-0");
         }}>
-            <img src={imagesUrls[pictureIndex]} className="rounded-2xl w-[100%] h-[300px] z-3 hover:z-5 relative"/>
+            <img src={imagesUrls[pictureIndex]} className="rounded-2xl w-[100%] h-[300px] z-4 hover:z-5 relative"/>
             <section ref={desc} className="absolute w-[100%] h-[100%] top-0 z-2 transition-[top] duration-400 ease-in-out bg-black rounded-b-3xl rounded-t-2xl">
                 <h1 className="text-center h-[2.8rem] text-4xl font-extrabold mt-10 bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">{title}</h1>
                 {subtitle}
