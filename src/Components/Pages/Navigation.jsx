@@ -16,8 +16,8 @@ export default function Navigation() {
             "aboutMe": "About Me",
             "projects":"Projects",
             "achivements": "Achivements",
-            "timeline":"Time line",
-            "socialMedia":"Social Media",
+            "skills":"Skills",
+            "socials":"Social Media",
             "project":"Project"
         }
         SetTitle(titles[location.pathname.split("/")[1]] || "Home")

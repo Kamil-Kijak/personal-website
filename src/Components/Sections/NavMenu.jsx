@@ -90,7 +90,7 @@ export default function NavMenu({onHideSidebar}) {
                             <span className="text-white text-3xl font-bold">Achivements</span>
                         </section>
                     </Link>
-                    <Link to="/socialMedia" onClick={() => {
+                    <Link to="/socials" onClick={() => {
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
