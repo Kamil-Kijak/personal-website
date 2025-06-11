@@ -1,5 +1,5 @@
 
-import { faInstagram, faThreads, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
+import { faInstagram, faThreads, faLinkedin, faGithub, faTiktok, faYoutube} from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEye } from "@fortawesome/free-solid-svg-icons"
 
@@ -46,6 +46,26 @@ export default function Socials() {
                         My social where I publish my programming projects and my work with many thinks, mainly in <span className="text-fuchsia-500">programming and IT.</span> Github is my place to share my work with everyone.
                     </p>
                     <a href="https://github.com/Kamil-Kijak" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-fuchsia-700 to-purple-900 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
+                </section>
+                <section className="shadow-2xl shadow-rose-800 m-10 flex justify-center items-center flex-col rounded-2xl pb-5">
+                    <FontAwesomeIcon icon={faTiktok} className="text-pink-700 text-8xl relative top-[-30px]"/>
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-pink-700 font-extrabold text-4xl h-[3rem]">Tiktok</h1>
+                    <div className="border-t-4 border-rose-800 m-5 w-[80%]"></div>
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-pink-700 text-2xl font-extrabold">Nickname: kamilcode</h1>
+                    <p className="text-white font-bold text-center mt-5 mx-4">
+                        Place where i create content about IT and technology for watch as short forms.
+                    </p>
+                    <a href="https://www.tiktok.com/@kamilcode" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-rose-800 to-pink-700 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
+                </section>
+                <section className="shadow-2xl shadow-red-700 m-10 flex justify-center items-center flex-col rounded-2xl pb-5">
+                    <FontAwesomeIcon icon={faYoutube} className="text-red-900 text-8xl relative top-[-30px]"/>
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-900 font-extrabold text-4xl h-[3rem]">Youtube</h1>
+                    <div className="border-t-4 border-red-700 m-5 w-[80%]"></div>
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-900 text-2xl font-extrabold">Nickname: Kamil-Code</h1>
+                    <p className="text-white font-bold text-center mt-5 mx-4">
+                        Place where i create content about IT and technology for watch as long forms also short forms.
+                    </p>
+                    <a href="https://www.youtube.com/@Kamil-Code" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-red-700 to-red-900 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
             </section>
         </main>
