@@ -1,15 +1,33 @@
 
 import { faCircleInfo, faBriefcase, faTrophy, faStar} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useEffect, useRef } from "react"
 
 export default function Home() {
 
+    const firstBinary = useRef(null);
+    const secondBinary = useRef(null);
+
+    useEffect(() => {
+        const binaryInterval = setInterval(() => {
+            const first = firstBinary.current.textContent;
+            const second = secondBinary.current.textContent;
+            firstBinary.current.textContent = first.split('').map(() => Math.random() > 0.5 ? 1 : 0).join('');
+            secondBinary.current.textContent = second.split('').map(() => Math.random() > 0.5 ? 0 : 1).join('');
+        }, 1000)
+        return () => {
+            clearInterval(binaryInterval);
+        }   
+    })
+
     return(
         <main className="bg-zinc-900 min-h-screen pb-5">
-            <section className="flex flex-col justify-center items-center h-screen bg-gradient-to-t from-zinc-900 to-zinc-950">
+            <section className="overflow-x-hidden flex flex-col justify-center items-center h-screen bg-gradient-to-t from-zinc-900 to-zinc-950">
+                <section ref={firstBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent my-20 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
                 <FontAwesomeIcon icon={faStar} className="text-blue-700 text-8xl mb-6"/>
                 <span className="md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Welcome!</span>
                 <span className="text-5xl font-extrabold text-zinc-600 mt-10 text-shadow-lg text-shadow-zinc-500">To My site</span>
+                <section ref={secondBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent my-15 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
             </section>
             <section className="flex flex-col justify-center items-center">
                 <section className="flex flex-col items-center mt-20">
