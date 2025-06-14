@@ -23,11 +23,11 @@ export default function Home() {
     return(
         <main className="bg-zinc-900 min-h-screen pb-5">
             <section className="overflow-x-hidden flex flex-col justify-center items-center h-screen bg-gradient-to-t from-zinc-900 to-zinc-950">
-                <section ref={firstBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent my-20 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
+                <section ref={firstBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold text-zinc-800 my-20 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
                 <FontAwesomeIcon icon={faStar} className="text-blue-700 text-8xl mb-6"/>
                 <span className="md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Welcome!</span>
                 <span className="text-5xl font-extrabold text-zinc-600 mt-10 text-shadow-lg text-shadow-zinc-500">To My site</span>
-                <section ref={secondBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent my-15 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
+                <section ref={secondBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold text-zinc-800 my-15 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
             </section>
             <section className="flex flex-col justify-center items-center">
                 <section className="flex flex-col items-center mt-20">
