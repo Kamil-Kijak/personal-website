@@ -29,7 +29,7 @@ export default function ProjectLink({imagesUrls = [], title = "project", subtitl
             desc.current.classList.remove("top-[90%]");
             desc.current.classList.add("top-0");
         }}>
-            <img src={imagesUrls[pictureIndex]} className="rounded-2xl w-[100%] h-[300px] z-4 hover:z-5 relative"/>
+            <img src={imagesUrls[pictureIndex]} className="rounded-2xl w-[100%] h-[300px] z-4 hover:z-5 relative"  draggable="false"/>
             <section ref={desc} className="absolute w-[100%] h-[100%] top-0 z-2 transition-[top] duration-400 ease-in-out bg-black rounded-b-3xl rounded-t-2xl">
                 <h1 className="text-center h-[2.8rem] text-4xl font-extrabold mt-10 bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">{title}</h1>
                 {subtitle}

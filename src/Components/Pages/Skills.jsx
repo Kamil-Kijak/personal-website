@@ -1,4 +1,7 @@
 
+import polandFlag from "../../img/languages/polandFlag.avif"
+import usaFlag from "../../img/languages/usaFlag.jpeg"
+
 export default function Skills() {
     return (
         <main className="bg-zinc-900 min-h-screen pb-[100px] pt-20 px-10">
@@ -8,14 +11,21 @@ export default function Skills() {
                     <div className="w-[80%] border-t-4 border-t-white mt-4"></div>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-blue-600 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">2023 - 2028 - Learning in Polish technical school on programist profile</p>
+                        <p className="text-white text-2xl font-bold text-center">2023 - 2028 - Learning in Polish technical school on <span className="underline decoration-2">programist profile</span></p>
                     </section>
                 </section>
                 <section className="flex flex-col items-center mt-20">
                     <span className="text-green-700 text-6xl font-extrabold text-center">language skills</span>
                     <div className="w-[80%] border-t-4 border-t-white mt-4"></div>
-                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
-                        
+                    <section className="flex flex-col items-start">
+                        <section className="flex lg:flex-row flex-col items-center justify-center mt-10">
+                            <img src={polandFlag} className="rounded-full w-[150px] h-[150px]" draggable="false"/>
+                            <h1 className="text-white text-3xl font-bold text-center m-5">Polish - home language</h1>
+                        </section>
+                        <section className="flex lg:flex-row flex-col items-center justify-center mt-10">
+                            <img src={usaFlag} className="rounded-full w-[150px] h-[150px]" draggable="false"/>
+                            <h1 className="text-white text-3xl font-bold text-center m-5">English - B1 language level</h1>
+                        </section>
                     </section>
                 </section>
                 <section className="flex flex-col items-center mt-20">

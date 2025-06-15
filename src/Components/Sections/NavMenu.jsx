@@ -1,5 +1,5 @@
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom";
 
 import ProfilePicture from "../../img/ProfilePicture.jpg"
@@ -43,7 +43,7 @@ export default function NavMenu({onHideSidebar}) {
                     <section className="flex flex-col items-center">
                         <span className=" text-3xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Kamil Kijak</span>
                         <img src={ProfilePicture} alt="profile picture" className="mt-6 rounded-full w-[200px] h-[200px]"/>
-                        <button className="text-white px-5 py-4 bg-gradient-to-r from-blue-700 to-purple-700
+                        <button onClick={() => alert("Coming soon!")} className="text-white px-5 py-4 bg-gradient-to-r from-blue-700 to-purple-700
                          font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-8 text-xl
                           cursor-pointer"><FontAwesomeIcon icon={faDownload} /> Download CV</button>
                     </section>

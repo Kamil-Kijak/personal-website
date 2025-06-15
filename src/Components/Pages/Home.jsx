@@ -3,6 +3,7 @@ import { faCircleInfo, faBriefcase, faTrophy, faStar} from "@fortawesome/free-so
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useEffect, useRef } from "react"
 
+
 export default function Home() {
 
     const firstBinary = useRef(null);
@@ -31,7 +32,7 @@ export default function Home() {
             </section>
             <section className="flex flex-col justify-center items-center">
                 <section className="flex flex-col items-center mt-20">
-                    <FontAwesomeIcon icon={faCircleInfo} className="text-blue-700 text-6xl"/>
+                    <FontAwesomeIcon icon={faCircleInfo} className="text-cyan-600 text-6xl"/>
                     <span className="text-cyan-500 text-6xl font-extrabold">My Info</span>
                     <div className="w-full border-t-4 border-t-white mt-4"></div>
                 </section>

@@ -17,7 +17,7 @@ export default function Project() {
                 </section>
                 <section className="mt-10">
                     <section className="flex flex-row items-start justify-center flex-wrap">
-                        <section className="flex flex-col items-center p-6 m-5 w-[400px] shadow-cyan-400 shadow-2xl rounded-2xl">
+                        <section className="flex flex-col items-center p-6 m-5 w-[400px] shadow-cyan-500 shadow-2xl rounded-2xl">
                             <span className="text-7xl text-cyan-400 font-bold mb-5">C#</span>
                             <span className="text-3xl text-cyan-400 text-center">main programming language</span>
                         </section>
@@ -59,7 +59,7 @@ export default function Project() {
                 </section>
                 <section className="mt-10">
                     <section className="flex flex-row items-start justify-center flex-wrap">
-                        <section className="flex flex-col items-center p-6 m-5 w-[400px] shadow-cyan-400 shadow-2xl rounded-2xl">
+                        <section className="flex flex-col items-center p-6 m-5 w-[400px] shadow-cyan-500 shadow-xl rounded-2xl">
                             <span className="text-7xl text-cyan-400 font-bold mb-5">C#</span>
                             <span className="text-3xl text-cyan-400 text-center">main programming language</span>
                         </section>
@@ -91,7 +91,7 @@ export default function Project() {
     return (
         <main className="bg-zinc-900 min-h-screen pt-14 pb-2 overflow-x-hidden">
             <section className="h-[500px] md:h-[450px]">
-                <img src={projectsData[params["ID"]].img} className={`w-screen h-[400px] absolute`} />
+                <img src={projectsData[params["ID"]].img} className={`w-screen h-[400px] absolute`}  draggable="false" />
                 <div className="bg-gradient-to-t from-black to-transparent absolute z-2 w-full h-[400px]"></div>
                 <h1 className="text-transparent bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text lg:text-8xl md:text-7xl text-6xl font-extrabold text-center top-90 absolute z-2 w-full">{projectsData[params["ID"]].title}</h1>
             </section>
