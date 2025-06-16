@@ -2,12 +2,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from "react-router-dom";
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
 
+import spaceshootimg from "../../img/projects/spaceshoot/1.png"
+import solitaireimg from "../../img/projects/solitaire/2.png"
+
 export default function Project() {
     const params = useParams();
 
     const projectsData = {
         "spaceshoot": {
-            img:"../../src/img/projects/spaceshoot/1.png",
+            img:spaceshootimg,
             title:"Spaceshoot Game",
             githubLink:"https://github.com/Kamil-Kijak/spaceshoot",
             doc:
@@ -49,7 +52,7 @@ export default function Project() {
             </>
         },
         "solitaire": {
-            img:"../../src/img/projects/solitaire/2.png",
+            img:solitaireimg,
             title:"Solitaire Game",
             githubLink:"https://github.com/Kamil-Kijak/pasjans",
             doc:

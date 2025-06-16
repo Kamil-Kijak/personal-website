@@ -1,5 +1,15 @@
 
 import ProjectLink from "../Elements/ProjectLink"
+import spaceshootimg1 from "../../img/projects/spaceshoot/1.png"
+import spaceshootimg2 from "../../img/projects/spaceshoot/2.png"
+import spaceshootimg3 from "../../img/projects/spaceshoot/3.png"
+import spaceshootimg4 from "../../img/projects/spaceshoot/4.png"
+
+import solitaireimg1 from "../../img/projects/solitaire/1.png"
+import solitaireimg2 from "../../img/projects/solitaire/2.png"
+import solitaireimg3 from "../../img/projects/solitaire/3.png"
+import solitaireimg4 from "../../img/projects/solitaire/4.png"
+import solitaireimg5 from "../../img/projects/solitaire/5.png"
 
 
 export default function Projects() {
@@ -9,10 +19,10 @@ export default function Projects() {
                 <ProjectLink
                     link="/project/spaceshoot"
                     imagesUrls={[
-                        "./src/img/projects/spaceshoot/1.png",
-                        "./src/img/projects/spaceshoot/2.png",
-                        "./src/img/projects/spaceshoot/3.png",
-                        "./src/img/projects/spaceshoot/4.png"
+                        spaceshootimg1,
+                        spaceshootimg2,
+                        spaceshootimg3,
+                        spaceshootimg4
                     ]}
                     title="Spaceshoot game"
                     subtitle={
@@ -27,11 +37,11 @@ export default function Projects() {
                 <ProjectLink
                     link="/project/solitaire"
                     imagesUrls={[
-                        "./src/img/projects/solitaire/1.png",
-                        "./src/img/projects/solitaire/2.png",
-                        "./src/img/projects/solitaire/3.png",
-                        "./src/img/projects/solitaire/4.png",
-                        "./src/img/projects/solitaire/5.png"
+                        solitaireimg1,
+                        solitaireimg2,
+                        solitaireimg3,
+                        solitaireimg4,
+                        solitaireimg5
                     ]}
                     title="Solitaire game"
                     subtitle={
