@@ -24,8 +24,19 @@ export default function Navigation() {
     })
     return (
         <section className="w-screen">
-            <Header onToggleNavbarClicked={() => {SetActive(!active)}} title={title}></Header>
-            {active && <NavMenu onHideSidebar={() => {SetActive(false)}}></NavMenu>}
+            <Header
+                onToggleNavbarClicked={() => {
+                    SetActive(!active)
+                    document.body.style.overflow = "hidden"
+                }}
+                title={title}
+            ></Header>
+            {active &&
+            <NavMenu
+                onHideSidebar={() => {
+                    SetActive(false)
+                }}
+            ></NavMenu>}
         </section>
     )
 }

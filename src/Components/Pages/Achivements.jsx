@@ -39,7 +39,7 @@ export default function Achivements({}) {
                         <div className="md:text-base text-xs">
                             <div className="border-t-4 border-yellow-500 m-5"></div>
                             <p className="text-white font-bold mx-5">
-                                JavaScript intermediate certificate issued by <span className="text-green-600">HackerRank</span> which presents my skill in JavaScript language
+                                JavaScript intermediate certificate issued by <span className="text-green-600">HackerRank</span> which presents my skill in JavaScript
                             </p>
                         </div>
                     }

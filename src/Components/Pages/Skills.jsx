@@ -17,7 +17,7 @@ export default function Skills() {
                 <section className="flex flex-col items-center mt-20">
                     <span className="text-green-700 text-6xl font-extrabold text-center">language skills</span>
                     <div className="w-[80%] border-t-4 border-t-white mt-4"></div>
-                    <section className="flex flex-col items-start">
+                    <section className="flex flex-col lg:items-start items-center justify-center">
                         <section className="flex lg:flex-row flex-col items-center justify-center mt-10">
                             <img src={polandFlag} className="rounded-full w-[150px] h-[150px]" draggable="false"/>
                             <h1 className="text-white text-3xl font-bold text-center m-5">Polish - home language</h1>
@@ -34,6 +34,30 @@ export default function Skills() {
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         {/* <div className="w-5 h-5 rounded-full bg-red-600 mr-5"></div> */}
                         <p className="text-white text-2xl font-bold text-center">I don't have any one yet!</p>
+                    </section>
+                </section>
+                <section className="flex flex-col items-center mt-30">
+                    <span className="text-yellow-500 text-6xl font-extrabold text-center">Useful skills</span>
+                    <div className="w-[80%] border-t-4 border-t-white mt-4"></div>
+                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
+                        <div className="w-5 h-5 rounded-full bg-yellow-500 mr-5"></div>
+                        <p className="text-white text-2xl font-bold text-center">problem solving - I love solve problems with code, technicals problems and also teamwork problems</p>
+                    </section>
+                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
+                        <div className="w-5 h-5 rounded-full bg-red-600 mr-5"></div>
+                        <p className="text-white text-2xl font-bold text-center">critical thinking - I think logically to break the problem with my code that i write and give best solution which i know</p>
+                    </section>
+                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
+                        <div className="w-5 h-5 rounded-full bg-purple-600 mr-5"></div>
+                        <p className="text-white text-2xl font-bold text-center">creative ideas - I love implement my ideas to project, i have many creative ideas to increase quality to project</p>
+                    </section>
+                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
+                        <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
+                        <p className="text-white text-2xl font-bold text-center">teamwork - I like to collaborate with others on projects</p>
+                    </section>
+                    <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
+                        <div className="w-5 h-5 rounded-full bg-orange-600 mr-5"></div>
+                        <p className="text-white text-2xl font-bold text-center">self-improvement - I love to all time improve my skills. I want to be better and better with many tech thinks</p>
                     </section>
                 </section>
                 <section className="flex flex-col items-center mt-30">

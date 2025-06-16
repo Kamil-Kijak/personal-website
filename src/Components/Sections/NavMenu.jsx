@@ -9,6 +9,8 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 export default function NavMenu({onHideSidebar}) {
     const screenShadow = useRef(null);
     const sideCard = useRef(null);
+
+    const [downloadSectionActive, SetDownloadSectionActive] = useState(false);
     useEffect(() => {
         setTimeout(() => {
             screenShadow.current.classList.add("opacity-75")
@@ -29,6 +31,7 @@ export default function NavMenu({onHideSidebar}) {
         setTimeout(() => {
             screenShadow.current.classList.remove("opacity-75")
             sideCard.current.classList.add("transform-[translateX(-100%)]");
+            document.body.style.overflow = "auto"
         }, 10);
         setTimeout(() => {
             onHideSidebar && onHideSidebar()
@@ -43,9 +46,28 @@ export default function NavMenu({onHideSidebar}) {
                     <section className="flex flex-col items-center">
                         <span className=" text-3xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Kamil Kijak</span>
                         <img src={ProfilePicture} alt="profile picture" className="mt-6 rounded-full w-[200px] h-[200px]"/>
-                        <button onClick={() => alert("Coming soon!")} className="text-white px-5 py-4 bg-gradient-to-r from-blue-700 to-purple-700
-                         font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-8 text-xl
-                          cursor-pointer"><FontAwesomeIcon icon={faDownload} /> Download CV</button>
+                        {
+                            !downloadSectionActive ? 
+                            <button onClick={() => SetDownloadSectionActive(true)} className="text-white px-5 py-4 bg-gradient-to-r from-blue-700 to-purple-700
+                             font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-8 text-xl
+                              cursor-pointer"><FontAwesomeIcon icon={faDownload} /> Download CV</button>
+                            :
+                            <section className="flex justify-around w-full">
+                                <button onClick={() => {
+                                    SetDownloadSectionActive(false)
+                                    alert("coming soon!")
+                                }} className="text-white px-5 py-4 bg-red-600 
+                             font-bold rounded-2xl hover:scale-125 hover:bg-red-500 transition-all duration-200 ease-in-out mt-8 text-xl
+                              cursor-pointer">PL</button>
+                              <button onClick={() => {
+                                    SetDownloadSectionActive(false)
+                                    alert("coming soon!")
+                            }} className="text-white px-5 py-4 bg-blue-600 
+                             font-bold rounded-2xl hover:scale-125 hover:bg-blue-500 transition-all duration-200 ease-in-out mt-8 text-xl
+                              cursor-pointer">EN</button>
+                            </section>
+                        }
+
                     </section>
                     <div className="w-full border-t-4 border-t-white mt-4"></div>
                 </section>
