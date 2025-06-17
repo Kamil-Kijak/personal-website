@@ -73,10 +73,10 @@ export default function Project() {
                 </section>
                 <section className="my-10 text-center">
                     <p>
-                        Solitaire (pasjans in <span className="text-red-600">polish</span>) is a game about stacking cards in four different symbols in four stacks in correct order.
+                        Solitaire (pasjans in <span className="text-red-600">polish</span>) is a game about stacking cards with four different symbols in four stacks in correct order.
                         You can pick card from main stack, you can transfer cards in correct order to seven stacks where can also collect cards which you put
-                         on end stack at endgame. <span className="text-blue-700">Available</span> are undo moves, you can undo max three moves. In hard difficulty you pick three cards from main stack
-                         instead one card. Each <span className="text-yellow-400">win game</span> is saved to the leaderboard, number of moves, game date and difficulty is saved as score.
+                         on end stacks at endgame. <span className="text-blue-700">Available</span> are undo moves, you can undo max three moves. In hard difficulty you pick three cards from main stack
+                         instead one card. Each <span className="text-yellow-400">win game</span> score as number of moves, game date and difficulty is saved to the leaderboard.
                     </p>
                     <p className="mt-5 text-center">
                         Game is created fully in console environment using .NET technology version 8.0 to run this just type <span className="text-cyan-500">dotnet run</span> command in terminal localized in project folder.

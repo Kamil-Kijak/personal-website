@@ -45,11 +45,11 @@ export default function Skills() {
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-red-600 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">critical thinking - I think logically to break the problem with my code that i write and give best solution which i know</p>
+                        <p className="text-white text-2xl font-bold text-center">critical thinking - I think logically to break the problem with my code that I write and give best solution which I know</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-purple-600 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">creative ideas - I love implement my ideas to project, i have many creative ideas to increase quality to project</p>
+                        <p className="text-white text-2xl font-bold text-center">creative ideas - I love implement my ideas to project, I have many creative ideas to increase quality of project</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
@@ -57,7 +57,7 @@ export default function Skills() {
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-orange-600 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">self-improvement - I love to all time improve my skills. I want to be better and better with many tech thinks</p>
+                        <p className="text-white text-2xl font-bold text-center">self-improvement - I love to all time improve my skills. I want to be better and better with many tech things</p>
                     </section>
                 </section>
                 <section className="flex flex-col items-center mt-30">
@@ -77,23 +77,23 @@ export default function Skills() {
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-red-700 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">SQL - advanced skills, experience with design databases</p>
+                        <p className="text-white text-2xl font-bold text-center">SQL - advanced skills, experience with design databases, operating with them</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-green-600 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">MongoDB - beginner skill with creating databases</p>
+                        <p className="text-white text-2xl font-bold text-center">MongoDB - beginner skills with creating databases</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-purple-800 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">PHP - basic skills, experience in creating backend, connecting database, creating functionality</p>
+                        <p className="text-white text-2xl font-bold text-center">PHP - advanced skills, experience in creating backend, connecting database, creating functionality</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-cyan-300 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">Tailwind - advanced skills in styling elements on sites. <span className="underline decoration-2">This site have been stylied using Tailwind</span></p>
+                        <p className="text-white text-2xl font-bold text-center">Tailwind - advanced skills in stylizing elements on sites. <span className="underline decoration-2">This site have been stylized using Tailwind</span></p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-orange-800 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">HTML, CSS - great experience with building all sites</p>
+                        <p className="text-white text-2xl font-bold text-center">HTML, CSS - great experience with building sites and stylizing it</p>
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-blue-600 mr-5"></div>
@@ -101,7 +101,7 @@ export default function Skills() {
                     </section>
                     <section className="flex lg:flex-row flex-col items-center justify-center mt-5">
                         <div className="w-5 h-5 rounded-full bg-lime-500 mr-5"></div>
-                        <p className="text-white text-2xl font-bold text-center">Node.js and Express.js - basic skills experience with creating backend to frontend</p>
+                        <p className="text-white text-2xl font-bold text-center">Node.js and Express.js - basic skills experience with creating backend code and rest api</p>
                     </section>
                 </section>
             </section>

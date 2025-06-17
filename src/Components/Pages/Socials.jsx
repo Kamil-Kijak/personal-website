@@ -13,7 +13,7 @@ export default function Socials() {
                     <div className="border-t-4 border-orange-400 m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600 text-2xl font-extrabold">Nickname: kamilkijak</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        Instagram is a place where I share my experiences of my life and also <span className="text-orange-400">connect with people</span> which has same passions and look on world.
+                        Instagram is a place where I share my experiences of my life and also <span className="text-orange-400">connect with people</span> which have same passions and look on world.
                     </p>
                     <a href="https://www.instagram.com/kamilkijak/" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-orange-400 to-orange-600 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
@@ -23,7 +23,7 @@ export default function Socials() {
                     <div className="border-t-4 border-white m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 text-2xl font-extrabold">Nickname: kamilkijak</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        In threads platform i publish my life related thinks and events in my life by writing posts
+                        In threads platform I publish my life related thinks and events in my life by writing posts
                     </p>
                     <a href="https://www.threads.com/@kamilkijak" target="_blank" className="text-black px-4 py-3 bg-gradient-to-r from-white to-gray-400 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
@@ -33,7 +33,7 @@ export default function Socials() {
                     <div className="border-t-4 border-blue-500 m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700 text-2xl font-extrabold">Nickname: Kamil Kijak</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        Linkedin account where i publish my things about <span className="text-sky-300">my carrier and my business.</span> For example my life steps, education and future employment.
+                        Linkedin account where I publish my things about <span className="text-sky-300">my carrier and my business.</span> For example my life steps, education and future employment.
                     </p>
                     <a href="https://www.linkedin.com/in/kamil-kijak-546676358/" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-blue-500 to-blue-700 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
@@ -43,7 +43,7 @@ export default function Socials() {
                     <div className="border-t-4 border-fuchsia-700 m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-700 to-purple-900 text-2xl font-extrabold">Nickname: Kamil-Kijak</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        My social where I publish my programming projects and my work with many thinks, mainly in <span className="text-fuchsia-500">programming and IT.</span> Github is my place to share my work with everyone.
+                        My social where I publish my programming projects and my work with many things, mainly in <span className="text-fuchsia-500">programming and IT.</span> Github is my place to share my work with everyone.
                     </p>
                     <a href="https://github.com/Kamil-Kijak" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-fuchsia-700 to-purple-900 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
@@ -53,7 +53,7 @@ export default function Socials() {
                     <div className="border-t-4 border-rose-800 m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-pink-700 text-2xl font-extrabold">Nickname: kamilcode</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        Place where i create content about IT and technology for watch as short forms.
+                        Place where I create content about IT and technology for watch as short forms.
                     </p>
                     <a href="https://www.tiktok.com/@kamilcode" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-rose-800 to-pink-700 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>
@@ -63,7 +63,7 @@ export default function Socials() {
                     <div className="border-t-4 border-red-700 m-5 w-[80%]"></div>
                     <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-900 text-2xl font-extrabold">Nickname: Kamil-Code</h1>
                     <p className="text-white font-bold text-center mt-5 mx-4">
-                        Place where i create content about IT and technology for watch as long forms also short forms.
+                        Place where I create content about IT and technology for watch as long forms also short forms.
                     </p>
                     <a href="https://www.youtube.com/@Kamil-Code" target="_blank" className="text-white px-4 py-3 bg-gradient-to-r from-red-700 to-red-900 font-bold rounded-2xl hover:scale-125 transition-transform duration-200 ease-in-out mt-5 text-md cursor-pointer"><FontAwesomeIcon icon={faEye}/> View account</a>
                 </section>

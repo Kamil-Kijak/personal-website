@@ -1,5 +1,5 @@
 
-import { faCircleInfo, faBriefcase, faTrophy, faStar, faPhone} from "@fortawesome/free-solid-svg-icons"
+import { faCircleInfo, faBriefcase, faTrophy, faPhone, faComputer} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useEffect, useRef } from "react"
 
@@ -25,7 +25,7 @@ export default function Home() {
         <main className="bg-zinc-900 min-h-screen pb-[100px]">
             <section className="overflow-x-hidden flex flex-col justify-center items-center h-screen bg-gradient-to-t from-zinc-900 to-zinc-950">
                 <section ref={firstBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold text-zinc-800 my-20 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
-                <FontAwesomeIcon icon={faStar} className="text-blue-700 text-8xl mb-6"/>
+                <FontAwesomeIcon icon={faComputer} className="text-blue-700 text-8xl mb-6"/>
                 <span className="md:text-8xl text-6xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Welcome!</span>
                 <span className="text-5xl font-extrabold text-zinc-600 mt-10 text-shadow-lg text-shadow-zinc-500">To My site</span>
                 <section ref={secondBinary} className="overflow-x-hidden overflow-y-hidden w-full md:text-8xl text-6xl font-extrabold text-zinc-800 my-15 h-[8.5rem]">010101110010001111111111111111111111111111111111111</section>
@@ -36,7 +36,7 @@ export default function Home() {
                     <span className="text-cyan-500 lg:text-6xl text-5xl font-extrabold">My Info</span>
                     <div className="border-t-4 border-t-white mt-4 w-[50%]"></div>
                     <span className="text-white font-bold text-xl text-center sm:mx-50 mx-15 mt-5">
-                        Hello I am Kamil Kijak. I am interested in <span className="text-cyan-500">IT brand and software development</span> I want to become successful person with my programming skills and i want to make a carrier as developer.
+                        Hello I am Kamil Kijak. I am interested in <span className="text-cyan-500">IT brand and software development</span> I want to become successful person with my programming skills and I want to make a carrier as software developer.
                     </span>
                 </section>
                 <section className="flex flex-col items-center mt-50">
@@ -44,7 +44,7 @@ export default function Home() {
                     <span className="text-green-500 lg:text-6xl text-5xl font-extrabold">Contact</span>
                     <div className="border-t-4 border-t-white mt-4 w-[50%]"></div>
                     <span className="text-white font-bold text-xl text-center sm:mx-50 mx-15 mt-5">
-                        I have socials accounts, you can view this in '<span className="text-green-500">Social Media</span>' section. Also you can contact me with <span className="text-green-500">kamil.kijak@pixlesofte.com</span> email adress.
+                        I have socials accounts, you can view this in '<span className="text-green-500">Social Media</span>' section. Also you can contact me using <span className="text-green-500">kamil.kijak@pixlesofte.com</span> email adress.
                     </span>
                 </section>
                 <section className="flex flex-col items-center mt-50">
@@ -54,7 +54,7 @@ export default function Home() {
                     <span className="text-white font-bold text-xl text-center sm:mx-50 mx-15 mt-5">
                         Programming is my passion so I want to make carrier with it. I have built many projects for example: games, sites, apps already.
                         I like logicly work with <span className="text-red-600">programming projects</span>, create a new ideas for projects
-                         and implement there, upgrade exists projects for new concepts and creating plans about new project.
+                         and implement it, upgrade exists projects for new concepts and creating plans about new projects.
                     </span>
                 </section>
                 <section className="flex flex-col items-center mt-50 mb-20">
@@ -62,9 +62,9 @@ export default function Home() {
                     <span className="text-yellow-400 lg:text-6xl text-5xl font-extrabold">Goal</span>
                     <div className="border-t-4 border-t-white mt-4 w-[50%]"></div>
                     <span className="text-white font-bold text-xl text-center sm:mx-50 mx-15 mt-5">
-                         My goal is extend my skills and improve my work for better work.
+                         My goal is extend my skills and improve my work.
                         By builting projects I learn new skills, new technologies and improve work with another projects.
-                        I am really great fan of IT things so I want to <span className="text-yellow-400">learn and upgrade myself</span> to make a technology related carrier.
+                        I am really great fan of IT things so I want to <span className="text-yellow-400">learn and improve myself</span> to make a technology related carrier.
                         I hope that my efforts will succeed.
                     </span>
                 </section>
