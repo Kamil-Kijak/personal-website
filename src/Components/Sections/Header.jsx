@@ -13,7 +13,7 @@ export default function Header({onToggleNavbarClicked, title}) {
                 <span className="text-3xl font-extrabold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">{title || "Home"}</span>
             </section>
             <section className="mx-2">
-                <span className="sm:block hidden text-3xl font-bold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Kamil Kijak Website</span>
+                <span className="sm:block hidden text-3xl mr-3 font-bold bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">Kamil Kijak Website</span>
             </section>
         </nav>
     )
