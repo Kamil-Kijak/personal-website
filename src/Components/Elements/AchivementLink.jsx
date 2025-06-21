@@ -22,8 +22,8 @@ export default function AchivementLink({imageUrl = "", title = "achivement", sub
             button.current.classList.add("hidden")
         }}>
             <img src={imageUrl} className="rounded-2xl w-[100%] h-[300px] z-2 relative bg-contain overflow-hidden transition-transform duration-200 ease-in-out"/>
-            <section ref={desc} className="absolute w-[100%] h-[100%] top-0 transition-[top] duration-400 ease-in-out bg-black rounded-b-3xl rounded-t-2xl">
-                <h1 className="text-center lg:text-4xl text-2xl mx-5 font-extrabold mt-10 bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">{title}</h1>
+            <section ref={desc} className="absolute w-[100%] h-[100%] top-0 transition-[top] duration-400 ease-in-out rounded-b-3xl rounded-t-2xl bg-gradient-to-b from-zinc-800 to-black">
+                <h1 className="text-center lg:text-4xl text-3xl font-extrabold mt-10 text-blue-700">{title}</h1>
                 {subtitle}
                 <div className="flex justify-center">
                     <a ref={button} href={link} target="_blank" className="hidden text-white px-4 py-3 bg-gradient-to-r from-blue-700 to-purple-700

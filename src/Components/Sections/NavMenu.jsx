@@ -73,6 +73,7 @@ export default function NavMenu({onHideSidebar}) {
                 </section>
                 <section className="flex flex-col items-start ml-5 px-5 gap-3">
                     <Link to="/" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
@@ -81,6 +82,7 @@ export default function NavMenu({onHideSidebar}) {
                         </section>
                     </Link>
                     <Link to="/aboutMe" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
@@ -89,6 +91,7 @@ export default function NavMenu({onHideSidebar}) {
                         </section>
                     </Link>
                     <Link to="/projects" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
@@ -97,6 +100,7 @@ export default function NavMenu({onHideSidebar}) {
                         </section>
                     </Link>
                     <Link to="/skills" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
@@ -105,6 +109,7 @@ export default function NavMenu({onHideSidebar}) {
                         </section>
                     </Link>
                     <Link to="/achivements" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
@@ -113,6 +118,7 @@ export default function NavMenu({onHideSidebar}) {
                         </section>
                     </Link>
                     <Link to="/socials" onClick={() => {
+                        window.scrollTo(0, 0)
                         hideSideBar()
                     }}>
                         <section className="flex items-center cursor-pointer hover:translate-x-6 duration-200 transition-transform ease-in-out">
